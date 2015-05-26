@@ -1,0 +1,14 @@
+<form action="/bmi" method="get">
+  <label for="m_or_i">Imperial or Metric</label>
+  <input type="text" name="m_or_i" placeholder="Imperial or Metric">
+  <label for="weight">Weight</label>
+  <input type="text" name="weight" placeholder="How fat are you">
+  <label for="height">Height</label>
+  <input type="text" name="height" placeholder="How long are you">
+  <input type="submit" name="submit">
+</form>
+
+
+<%if @m_or_i %>
+<p>You are chunky here is your BMI: <%= @bmi %> </p>
+<% end %>

@@ -1,10 +1,10 @@
 <form action="/sqrt" method="get">
-  <label for="first">NUMBER</label>
+  <label for="first">Number to be square rooted</label>
   <input type="text" name="first" placeholder="Enter the first number">
   <input type="submit" name="submit">
 </form>
 
 
-<%if @result %>
-<p>The square root of <%= @first %> is: <%= @result %> </p>
+<%if @first %>
+<p>The square root of <%= @first %> is: <%= @answer %> </p>
 <% end %>

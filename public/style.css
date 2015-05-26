@@ -1,0 +1,9 @@
+body {
+  background: url("https://s-media-cache-ak0.pinimg.com/originals/34/56/ba/3456ba2c58fdc0ea0c7999d84670f2db.gif") no-repeat center center fixed;
+  background-size: cover;
+}
+nav {
+  font-weight: bold;
+  font: 90px;
+  position: inline;
+}

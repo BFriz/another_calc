@@ -1,0 +1,14 @@
+<form action="/mortgage" method="get">
+  <label for="p">Principal</label>
+  <input type="text" name="p" placeholder="Put your Principal amount">
+  <label for="ir">Yearly Interest Rate</label>
+  <input type="text" name="ir" placeholder="Enter your Yearly IR">
+  <label for="n">Number of payments</label>
+  <input type="text" name="n" placeholder="Enter number of payments">
+  <input type="submit" name="submit">
+</form>
+
+
+<%if @n %>
+<p> <%= @mort%> </p>
+<% end %>
