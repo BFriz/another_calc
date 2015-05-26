@@ -1,0 +1,12 @@
+<form action="/power" method="get">
+  <label for="first">NUMBER</label>
+  <input type="text" name="first" placeholder="Enter the first number">
+  <label for="powerof">To The Power of</label>
+  <input type="text" name="powerof" placeholder="To the power">
+  <input type="submit" name="submit">
+</form>
+
+
+<%if @results %>
+<p>The result of <%= @first %> to the power of <%= @powerof %> is: <%= @results %> </p>
+<% end %>
